@@ -1,14 +1,33 @@
 import { h } from 'preact';
 import style from './style.css';
+import{h,render,components} from 'preact';
+
+import{h,render,components} from 'preact';
+
+class Clock extends components{
+    render(){
+        let time = new Date().toLocaleDateString();
+        return <span> { time } </span>;
+    }
+}
+
+
 
 const Home = () => {
+	render (<Clock/>) ;
 	return (
+		
 		<div class={style.home}>
 			<a href="https://preactjs.com">
 				<img src="../../assets/preact-logo.svg" alt="Preact Logo" height="160" width="160" />
 			</a>
 			<h1>Hello?!</h1>
 			<h2>World!</h2>
+
+			
+
+	  
+
 			<section>
 				<Resource
 					title="Learn Preact!"

@@ -17,7 +17,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		color: #fff;
-		background: #1c1c1c;
+		background: #1c1c1c3c;
 	}
 }
 
@@ -27,7 +27,7 @@ body {
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
-	background-color: #1C1B1F;
+	background-color: #133633;
 }
 
 #app > main {
